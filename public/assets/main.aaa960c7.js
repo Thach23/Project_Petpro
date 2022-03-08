@@ -1,0 +1,1 @@
+function d(o,i=30){let t;return(...n)=>{clearTimeout(t),t=setTimeout(()=>{o.apply(this,n)},i)}}const e=document.getElementById("backToTop");e.addEventListener("click",()=>{window.scrollTo({top:0,left:0,behavior:"smooth"})});window.addEventListener("scroll",d(o=>{window.scrollY<200?e.classList.add("hidden"):e.classList.remove("hidden")},30));

@@ -1,0 +1,1 @@
+(function(){const t=document.querySelectorAll(".js-hover");Array.from(t).forEach(e=>{e.addEventListener("mouseenter",()=>{e.classList.add("active")}),e.addEventListener("mouseleave",()=>{e.classList.remove("active")})})})();

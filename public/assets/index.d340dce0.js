@@ -1,0 +1,1 @@
+import"./custom.f5eea7dd.js";import"./hover.38850bf6.js";import"./number-counter.3c460b30.js";import{C as e}from"./carousel.81f44851.js";import"./vendor.95a61fa3.js";const o=new e;o.init({element:"#kvCarousel",pagination:{el:".swiper-pagination",clickable:!0}});
